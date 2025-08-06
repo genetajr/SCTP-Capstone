@@ -47,8 +47,4 @@ Data on prevalence and attitudes towards mental health among tech workers
 **Joana** – Data Analyst *(Student Project)*
 
 
-# SCTP-Capstone
-Capstone Project for my Associate Data Analyst
-
-
 
