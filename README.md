@@ -10,11 +10,16 @@ Data on prevalence and attitudes towards mental health among tech workers
 - **Link to Datasource:** https://www.kaggle.com/datasets/osmi/mental-health-in-tech-2016  
 - **Description** Data on prevalence and attitudes towards mental health among tech workers  
 - **Records:** 1,433  
-- **Features:** 
+- **Features:** Age, Gender, Employment Category, Employer Benefits related to Mental Health, 
+- - **Target column for Analysis:** Seek Treatment (Binary: Yes/No)
 
 ## 📂 Data Files
-- **winequality-red-original dataset-uncleaned.csv - Original (raw) dataset**
-- **winequality-red-cleaned.csv – Cleaned dataset with values rounded to 4 decimal places**
+- **mental-heath-in-tech-2016_20161114.csv - Original (raw) dataset**
+- **Dataset Info - Mental Health.txt - data dictionary**
+- **FINAL_MentalHealth.jpynb - Juypter notebook that contains the following**
+  - data exploration, preparation and cleaning steps
+  - data analysis with graphs and model
+  - conclusion and recommendation
 
 ---
 
