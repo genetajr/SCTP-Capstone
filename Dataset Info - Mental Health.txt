@@ -1,0 +1,104 @@
+About				: OSMI Mental Health in Tech Survey 2016
+Description			: This project leverages the OSMI Mental Health in Tech Survey 2016,
+				  dataset to examine the prevalence of mental health challenges and attitudes 
+				  toward treatment among tech workers. 
+				  The focus is on identifying barriers to care and opportunities for workplace intervention.
+Data Source			: https://www.kaggle.com/datasets/osmi/mental-health-in-tech-2016
+Target Column(s) for Analysis	: Seek Treatment (Binary: Yes/No)
+
+Data Dictionary: (original dataset)
+1. Are you self-employed?
+2. How many employees does your company or organization have?
+3. Is your employer primarily a tech company/organization?
+4. Is your primary role within your company related to tech/IT?
+5. Does your employer provide mental health benefits as part of healthcare coverage?
+6. Do you know the options for mental health care available under your employer-provided coverage?
+7. Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?
+8. Does your employer offer resources to learn more about mental health concerns and options for seeking help?
+9. Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?
+10. If a mental health issue prompted you to request a medical leave from work, asking for that leave would be:
+11. Do you think that discussing a mental health disorder with your employer would have negative consequences?
+12. Do you think that discussing a physical health issue with your employer would have negative consequences?
+13. Would you feel comfortable discussing a mental health disorder with your coworkers?
+14. Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?
+15. Do you feel that your employer takes mental health as seriously as physical health?
+16. Have you heard of or observed negative consequences for co-workers who have been open about mental health issues in your workplace?
+17. Do you have medical coverage (private insurance or state-provided) which includes treatment of Â mental health issues?
+18. Do you know local or online resources to seek help for a mental health disorder?
+19. If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to clients or business contacts?
+20. If you have revealed a mental health issue to a client or business contact, do you believe this has impacted you negatively?
+21. If you have been diagnosed or treated for a mental health disorder, do you ever reveal this to coworkers or employees?
+22. If you have revealed a mental health issue to a coworker or employee, do you believe this has impacted you negatively?
+23. Do you believe your productivity is ever affected by a mental health issue?
+24. If yes, what percentage of your work time (time performing primary or secondary job functions) is affected by a mental health issue?
+25. Do you have previous employers?
+26. Have your previous employers provided mental health benefits?
+27. Were you aware of the options for mental health care provided by your previous employers?
+28. Did your previous employers ever formally discuss mental health (as part of a wellness campaign or other official communication)?
+29. Did your previous employers provide resources to learn more about mental health issues and how to seek help?
+30. Was your anonymity protected if you chose to take advantage of mental health or substance abuse treatment resources with previous employers?
+31. Do you think that discussing a mental health disorder with previous employers would have negative consequences?
+32. Do you think that discussing a physical health issue with previous employers would have negative consequences?
+33. Would you have been willing to discuss a mental health issue with your previous co-workers?
+34. Would you have been willing to discuss a mental health issue with your direct supervisor(s)?
+35. Did you feel that your previous employers took mental health as seriously as physical health?
+36. Did you hear of or observe negative consequences for co-workers with mental health issues in your previous workplaces?
+37. Would you be willing to bring up a physical health issue with a potential employer in an interview?
+38. Why or why not?
+39. Would you bring up a mental health issue with a potential employer in an interview?
+40. Why or why not?
+41. Do you feel that being identified as a person with a mental health issue would hurt your career?
+42. Do you think that team members/co-workers would view you more negatively if they knew you suffered from a mental health issue?
+43. How willing would you be to share with friends and family that you have a mental illness?
+44. Have you observed or experienced an unsupportive or badly handled response to a mental health issue in your current or previous workplace?
+45. Have your observations of how another individual who discussed a mental health disorder made you less likely to reveal a mental health issue yourself in your current workplace?
+46. Do you have a family history of mental illness?
+47. Have you had a mental health disorder in the past?
+48. Do you currently have a mental health disorder?
+49. If yes, what condition(s) have you been diagnosed with?
+50. If maybe, what condition(s) do you believe you have?
+51. Have you been diagnosed with a mental health condition by a medical professional?
+52. If so, what condition(s) were you diagnosed with?
+53. Have you ever sought treatment for a mental health issue from a mental health professional?
+54. If you have a mental health issue, do you feel that it interferes with your work when being treated effectively?
+55. If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively?
+56. What is your age?
+57. What is your gender?
+58. What country do you live in?
+59. What US state or territory do you live in?
+60. What country do you work in?
+61. What US state or territory do you work in?
+62. Which of the following best describes your work position?
+63. Do you work remotely?
+
+
+
+Data Dictionary: (revised)
+1. self_employed: [previously: Are you self-employed?]
+2. gender [previously: What is your gender?]
+3. Gender Category [*new* derived column based on "What is your gender?"]
+4. Age [previously: What is your age?]
+5. with_Prev_Employer [previously: Do you have previous employers?]
+6. work_position [previously: Which of the following best describes your work position?]        
+7. with_FamilyHist_of_MentalIlness [previously: Do you have a family history of mental illness?]                  
+8. with_Past_MentalIlness [previously: Have you had a mental health disorder in the past?]
+9. with_Current_MentalIlness [previously: Do you currently have a mental health disorder?]               
+10. Current_diagnosis [previously: If yes, what condition(s) have you been diagnosed with?]
+11. with_HealthProf_diagnosis? [previously: Have you been diagnosed with a mental health condition by a medical professional?]
+12. HealthProf_diagnosis_condition [previously: If so, what condition(s) were you diagnosed with?]    
+13. Sought_treatment_HealthProf [previously:Have you ever sought treatment for a mental health issue from a mental health professional? ]
+14. Employer_with_MentalHealth_Benefit [previously: Does your employer provide mental health benefits as part of healthcare coverage?]
+15. discuss_with_CoWorker [previously: Would you feel comfortable discussing a mental health disorder with your coworkers?]
+17. discuss_with_Supervisor [previously: Would you feel comfortable discussing a mental health disorder with your direct supervisor(s)?]
+18. Employer_prioritize_MentalHealth [previously: Do you feel that your employer takes mental health as seriously as physical health?]
+19. Productivity_Impact_on_MentalHealth [previously: Do you believe your productivity is ever affected by a mental health issue?]
+20. MentalHealth_careerImpact? [previously: Do you feel that being identified as a person with a mental health issue would hurt your career? ]
+21. Work Remotely? [previously: Do you work remotely?]
+22. Employer_campaign_MentalWealth? [previously: Has your employer ever formally discussed mental health (for example, as part of a wellness campaign or other official communication)?]
+23. Employer_with_MentalHealth_resource? [previously: Does your employer offer resources to learn more about mental health concerns and options for seeking help?]
+24. Anonymity_seek_treatment [previously: Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources provided by your employer?]
+25. leave [previously: If a mental health issue prompted you to request a medical leave from work, asking for that leave would be]
+26. mental_health_consequence [previously: Do you think that discussing a mental health disorder with your employer would have negative consequences?]
+27. mental_health_interview [previously: Would you bring up a mental health issue with a potential employer in an interview?]
+28. work_interfere [previously: If you have a mental health issue, do you feel that it interferes with your work when NOT being treated effectively? ]
+29. role_in_tech?' [previously: Is your primary role within your company related to tech/IT?]
