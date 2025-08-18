@@ -43,7 +43,7 @@ Develop a predictive model to identify employees who works in Technology Workspa
 ---
 
 ## 🙏 Acknowledgements
-- **Trainer:** Bishmer  
+- **Trainer:** Bishmer Sekaran
 - **Learning Support:** NTUC LearningHub & SkillsFuture  
 
 ---
