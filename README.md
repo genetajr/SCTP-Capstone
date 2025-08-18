@@ -1,7 +1,7 @@
 # Mental Health Analysis among Technology Workers
 
-Mental Health Prediction in People that works in Technology Workspace
-Data on prevalence and attitudes towards mental health among tech workers
+Data on prevalence and attitudes towards mental health among tech workers.  
+Develop a predictive model to identify employees who works in Technology Workspace that are likely to seek treatment for mental health issues.
 
 ---
 
@@ -11,12 +11,12 @@ Data on prevalence and attitudes towards mental health among tech workers
 - **Description** Data on prevalence and attitudes towards mental health among tech workers  
 - **Records:** 1,433  
 - **Features:** Age, Gender, Employment Category, Employer Benefits related to Mental Health, 
-- - **Target column for Analysis:** Seek Treatment (Binary: Yes/No)
+- **Target column for Analysis:** Seek Treatment (Binary: Yes/No)
 
 ## 📂 Data Files
-- **mental-heath-in-tech-2016_20161114.csv - Original (raw) dataset**
-- **Dataset Info - Mental Health.txt - data dictionary**
-- **FINAL_MentalHealth.jpynb - Juypter notebook that contains the following**
+- **mental-heath-in-tech-2016_20161114.csv** - Original (raw) dataset
+- **Dataset Info - Mental Health.txt** - data dictionary
+- **FINAL_MentalHealth.jpynb** - Juypter notebook that contains the following
   - data exploration, preparation and cleaning steps
   - data analysis with graphs and model
   - conclusion and recommendation
