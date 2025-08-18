@@ -1,7 +1,8 @@
 # Mental Health Analysis among Technology Workers
 
-Data on prevalence and attitudes towards mental health among tech workers.  
-Develop a predictive model to identify employees who works in Technology Workspace that are likely to seek treatment for mental health issues.
+## ❓ Problem Statement:
+Identify and understand the factors influencing the decision to seek or not seek treatment for mental health condition.  
+Understand how to provide appropriate support and reduce stigma associated with mental health in the workplace.
 
 ---
 ## 🏆 Project Objectives:
