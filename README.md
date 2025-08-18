@@ -4,7 +4,8 @@ Data on prevalence and attitudes towards mental health among tech workers.
 Develop a predictive model to identify employees who works in Technology Workspace that are likely to seek treatment for mental health issues.
 
 ---
-## Project Objectives:
+## 🏆 Project Objectives:
+
 - Analyze Influencing Factors: Examine how demographics, work environment, perceived impact of mental illness will affect the likelihood of seeking treatment.
 - Predict Treatment-Seeking Behavior: Develop a predictive model to identify employees who are likely to seek treatment for mental health issues.
 - Provide Actionable Insights: Offer recommendations to organizations on how to improve mental health support and encourage treatment-seeking behavior among employees.
@@ -29,7 +30,7 @@ Develop a predictive model to identify employees who works in Technology Workspa
 
 ---
 
-## 🛠️ Tools Used
+## 🧰 Tools Used
 - **Python (Jupyter Notebook)** - data cleaning, EDA
 - **pandas, numpy** - data cleaning
 - **matplotlib, seaborn** - Data Visualization(graphs)  
@@ -44,7 +45,7 @@ Develop a predictive model to identify employees who works in Technology Workspa
 
 ---
 
-## 📈 Future Work
+## 🔜 Future Work
 - build other classification models : k-Nearest Neighbors(k-NN), Support Vector Machine(SVM), Naive Bayes, XGBoost, 
 
 ---
@@ -55,7 +56,7 @@ Develop a predictive model to identify employees who works in Technology Workspa
 
 ---
 
-## 👤 Created by
+## 🤵‍♀️ Created by
 **Joana** – Data Analyst *(Student Project)*
 
 
